@@ -4,5 +4,5 @@ A backend app to complete the alura-books website
 Keywords:
 - Node.js
 - Express
-- Nodemon
+- Nodemon (npx nodemon <file>)
 - Route
