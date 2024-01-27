@@ -3,6 +3,8 @@ const app = express()
 const port = 8000
 const routeBook = require('./routes/book')
 
+app.use(express.json())
+
 app.use('/livros', routeBook)
 
 app.listen(port, () => {
